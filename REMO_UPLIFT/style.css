@@ -1,0 +1,176 @@
+body {
+    font-weight: 500;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #FFFEF2 60%, #060457 40%);
+    /* Top half red, bottom half blue */
+}
+header{
+    height:45px;
+    background-color:rgb(224,23,23);
+    color: #f0f8ff;
+}
+header .menu-toggle{
+    display: none;
+}
+header * {
+    color:aliceblue;
+}
+ header .logo {
+    float: left;
+    height: inherit;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+header .logo img {
+    border-radius: 50%;
+}
+header ul{
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+header ul li{
+    display: inline-block;
+    position: relative;
+}
+header ul li a {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: aliceblue;
+    background-color: rgb(149, 7, 7);
+    transition: 0.5s;
+    text-decoration: none;
+}
+.search-container {
+    
+    margin-top: 9px;
+    float: right;
+    height: inherit;
+}
+.search-container input{
+    color: #060457;
+    border-radius: 10px;
+    border:none;
+
+}
+.search-container button{
+    background-color: rgb(224,23,23);
+    border-radius: 10px;
+    border: none;
+
+}
+.logom{
+    text-align: center;
+}
+.logom img{
+    border: none;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+}
+.links {
+    text-align: center; /* Center-align inline-block elements */
+    padding: 20px;
+}
+.donate{
+    text-align: center;
+    vertical-align: top; /* Align top */
+    display: inline-block;
+    color: white;
+    background-color: #060457;
+    width:fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    margin-right: 5px;
+}
+.give{
+    text-align: center;
+    vertical-align: top; /* Align top */
+    display: inline-block;
+    color: white;
+    background-color: rgb(224,23,23);
+    width:fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    margin-right: 5px;
+}
+.both{
+    text-align: center;
+    vertical-align: top; /* Align top */
+    display: inline-block;
+    color: #060457;
+    background-color: rgb(248,242,171);
+    width:fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+}
+hr{
+    background-color: white !important;
+    margin-top: 0px;
+}
+.form{
+    width:100%;
+    margin: 0 auto;
+}
+.landform input {
+    background-color: #FFFEF2;
+    color:#060457;
+    justify-content: center; /* Horizontally centers the input */
+    align-items: center;
+    display: block;
+    margin-bottom: 8px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.consumerinfo {
+    text-align: center;/* Center-align inline-block elements */
+    padding: 20px;
+}
+.consumerinfo h5 {
+    color: #060457;
+    text-align: center;
+}
+.story{
+    vertical-align: top; /* Align top */
+    display: inline-block;
+    width:fit-content;
+    margin-right: 5px;
+}
+.story div{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    color: white;
+    background-color: #060457;
+    margin-right: 5px;
+}
+.ranks{
+    vertical-align: top; /* Align top */
+    display: inline-block;
+    width:fit-content;
+    margin-right: 5px;
+}
+.ranks div{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    color: white;
+    background-color: #060457;
+    margin-right: 5px;
+}
