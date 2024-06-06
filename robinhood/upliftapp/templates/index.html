@@ -1,0 +1,106 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uplift - Welcome</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#"><img src="{% static 'images/Ellipse 15.jpg' %}" alt="Uplift Logo"></a>
+                </div>
+                <ul>
+                    <li><a href="#">FRIENDS IN NEED</a></li>
+                    <li><a href="#">CONTRIBUTORS</a></li>
+                    <li><a href="#">HOW IT WORKS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+                <div class="donate-button">
+                    <a href="#" class="donate">DONATE</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="main-content">
+            <div class="left-container">
+                <div class="left-panel">
+                    <h1>WELCOME<br> TO</h1>
+                    <div class="logo">
+                        <img src="{% static 'images/Ellipse 15.jpg' %}" alt="Uplift Logo">
+                        <p style="color: #fff;">Making Hope Tangible</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-container" style="width: 20px;">
+                <div class="right-panel">
+                    <h2>Would you like to declare your <br> contribution, declare your need<br> for something, or both</h2>
+                    <div class="buttons">
+                        <button class="contribute">CONTRIBUTE</button>
+                        <button class="status">STATUS</button>
+                        <button class="assistance">ASSISTANCE</button>
+                    </div>
+                    <h2>Would you like to track progress of your uplift?</h2>
+                    <form>
+                        <input type="text" name="username" placeholder="Username">
+                        <input type="text" name="code" placeholder="Code">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="background"></div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section logo-section">
+                    <img src="{% static 'images/Ellipse 15.jpg' %}" alt="Uplift Logo" class="footer-logo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare cursus sed nunc eget dictum.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Learn More</h3>
+                    <ul>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Fundraise</h3>
+                    <ul>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Header Text</h3>
+                    <ul>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Uplift</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer-app-links">
+                    <a href="#"><img src="{% static 'images/appstore.png' %}" alt="App Store"></a>
+                    <a href="#"><img src="{% static 'images/apple.png' %}" alt="Google Play"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
